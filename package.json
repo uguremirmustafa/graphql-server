@@ -27,5 +27,8 @@
     "start": "nodemon --exec ts-node --files src/index.ts",
     "build": "tsc",
     "heroku-postbuild": "tsc"
+  },
+  "engines": {
+    "node": "14"
   }
 }
